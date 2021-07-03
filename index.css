@@ -1,0 +1,86 @@
+@font-face {
+    font-family: bombing;
+    src: url(Bombing.ttf);
+}
+#cursor {
+    font-size: 700%;
+    font-family: bombing;
+    text-align: center;
+    color: white;
+}
+
+.menu{
+    display: block;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    font-family: bombing;
+    float: center;
+}
+
+.menu li  ul{
+  position: absolute;
+  display: none;
+}
+
+.menu li:hover ul, .menu li.over ul{
+display: inline-block;
+}
+
+
+a{
+    font-size: 230%;
+    text-decoration: none;
+    color: black;
+    color: white;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 2px;
+    border-color: black;
+}
+
+body{
+    background-image: url(image1.jfif);
+    background-size: cover;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.Beatbox , .Origemtermo , .Old , .Middle , .New{
+    font-family: bombing;
+    font-size: 300%;
+    text-align: center;
+}
+
+.p{
+    font-family: Cover;
+    font-size: 150%;
+}
+
+.referencia{
+  color: blavk;
+  font-family: Cover;
+  font-size: 150%;
+}
+footer{
+    color: white;
+    display: block;
+    font-family: Cover;
+    font-size: 200%;
+    padding: 2%;
+}
+
+.videos{
+    display: block;
+    text-align: center;
+}
